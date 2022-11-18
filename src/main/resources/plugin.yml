@@ -1,0 +1,6 @@
+name: DominationRankup
+version: '${project.version}'
+main: dominationrankup.dominationrankup.DominationRankup
+api-version: 1.19
+depend: [ Itemsadder, PlaceholderAPI ]
+authors: [ Gusttavo13 ]

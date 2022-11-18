@@ -94,6 +94,10 @@
             <id>placeholderapi</id>
             <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
         </repository>
+        <repository>
+            <id>roinujnosde-repo</id>
+            <url>https://repo.roinujnosde.me/releases/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -118,6 +122,12 @@
             <groupId>me.clip</groupId>
             <artifactId>placeholderapi</artifactId>
             <version>2.10.10</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.sacredlabyrinth.phaed.simpleclans</groupId>
+            <artifactId>SimpleClans</artifactId>
+            <version>2.18.0</version> <!-- You can find the latest version at the bottom -->
             <scope>provided</scope>
         </dependency>
     </dependencies>
